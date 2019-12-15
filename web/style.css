@@ -474,7 +474,7 @@ transition:.4s ease-out;
   }
 
   .container-5{
-    transform:translateY(500vh);
+    transform:translateY(800vh);
     background-color:none;
     position:relative;
     flex-direction: column;
@@ -484,7 +484,7 @@ transition:.4s ease-out;
     width:100vw;
     height:auto;
     margin-top:30px;
-    z-index:998;
+    /* z-index:998; */
 
     -o-transition:.4s ease-out;
     -ms-transition:.4s ease-out;
