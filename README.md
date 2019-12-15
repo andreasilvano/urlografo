@@ -1,4 +1,4 @@
-# URLOGRAFO <br>________________________________<br> macchina comunicativa che favorisce la dinamica dell'ascolto.
+# URLOGRAFO <br>________________________________<br><br> macchina comunicativa che favorisce la dinamica dell'ascolto.
 
 URLOGRAFO è una macchina comunicativa che intende creare un’interazione tra due individui basata sull’ascolto.<br>
 Gli utenti sono invitati a partecipare in coppia, ognuno nella postazione dedicata, ricoprendo il ruolo di urlatore e ascoltatore.
