@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html lang=en>
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>URLOGRAFO</title>
+  <!-- metatag -->
+  <meta name="description" content="URLOGRAFO">
+  <meta name="keywords" content="python, interaction, raspberrypi, design">
+  <meta name="author" content="Fritzbus">
+  <!-- responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="all">
+  <!-- favicon -->
+  <link rel="icon" sizes="192x192" href="assets/favicon.png">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- style and js -->
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./main.js"></script>
+
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328.7 83">
+            <g id="Layer_2" data-name="Layer 2">
+              <g id="Layer_1-2" data-name="Layer 1">
+                <path d="M0,.4H11.1V21.3c0,4.6,1.65,6.4,6.2,6.4h11c4.55,0,6.2-1.8,6.2-6.4V.4H45.6V23.7C45.6,32.7,41,37,30.75,37H14.85C4.65,37,0,32.7,0,23.7Z" />
+                <path d="M53.1.4H86.6c8.55,0,10.85,4.25,10.85,10.75v2.3c0,4.85-1.1,7.7-6.2,8.9v.1c3.3.6,6,2.05,6,8V36.6H86.2V32.25c0-3.8-1.1-5.05-4.55-5.05H64.2v9.4H53.1ZM64.2,18.2H82.55c3,0,4.1-1.2,4.1-3.8V13.2c0-3.2-1.6-3.8-5.1-3.8H64.2Z" />
+                <path d="M105,.4h11.1V27.3h25v9.3H105Z" />
+                <path
+                  d="M144.9,13.1C144.9,2.5,150.85,0,160.85,0h17.8c10,0,15.95,2.5,15.95,13.1V23.9c0,10.6-5.95,13.1-15.95,13.1h-17.8c-10,0-15.95-2.5-15.95-13.1Zm11.4,7.35c0,5.25,1.1,7.25,6.35,7.25h14.2c5.25,0,6.35-2,6.35-7.25v-3.9c0-4.5-1.1-7.25-6.95-7.25h-13c-5.85,0-6.95,2.75-6.95,7.25Z" />
+                <path
+                  d="M75.2,59.1c0-10.6,6-13.1,16-13.1h16.7c12.6,0,14.35,4.55,14.35,11.6v1.15H111.3c0-3.6-2-4-5.6-4h-12c-5.6,0-7.05,1.35-7.05,7.55v4.5c0,6.2,1.45,7.55,7.05,7.55H105.5c2.9,0,5.8-.45,5.8-4v-1H97.5V61.8h24.9V72.1c0,10.4-5.4,10.9-17.9,10.9H91.15c-10,0-16-2.5-16-13.1Z" />
+                <path d="M129.1,46.4h33.5c8.55,0,10.85,4.25,10.85,10.75v2.3c0,4.85-1.1,7.7-6.2,8.9v.1c3.3.6,6.05,2,6.05,8V82.6H162.2V78.25c0-3.8-1.1-5-4.55-5H140.2v9.4H129.1Zm11.1,17.8h18.35c3,0,4.1-1.2,4.1-3.8V59.2c0-3.2-1.6-3.8-5.1-3.8H140.2Z" />
+                <path d="M197,46.4h14.45l19.9,36.2H219l-3.45-6.4h-22.5l-3.25,6.4H177.4Zm.2,22h14.2l-7.2-13.6Z" />
+                <path d="M235.3,46.4h37.8v8.7H246.4v6.75h25.45v8.4H246.4V82.6H235.3Z" />
+                <path
+                  d="M279,59.1C279,48.5,285,46,295,46h17.8c10,0,15.95,2.5,15.95,13.1V69.9c0,10.6-5.95,13.1-15.95,13.1H295C285,83,279,80.5,279,69.9Zm11.4,7.35c0,5.25,1.1,7.25,6.35,7.25H311c5.25,0,6.35-2,6.35-7.25v-3.9c0-4.5-1.1-7.25-6.95-7.25h-13c-5.85,0-7,2.75-7,7.25Z" />
+              </g>
+            </g>
+          </svg>
+          <p id="subTitle">
+            MACCHINA COMUNICATIVA CHE FAVORISCE LA DINAMICA DELL'ASCOLTO</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="btn col-lg-12">
+          <p id="rivivi">Rivivi l'esperienza</p>
+          <a href="#" id="soundbutton"><svg id="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 798.6 798.95">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #fff;
+                  }
+                </style>
+              </defs>
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="Livello_1" data-name="Livello 1">
+                  <path
+                    d="M399.37,0C619.58-.53,798.79,178.59,798.6,400.1c-.19,219.39-177,399.61-400.89,398.85C176.4,798.19-.76,619.15,0,397.91.76,177.74,178.53.48,399.37,0ZM48.08,402.83C50.49,601.28,211.85,750.36,397.47,750.5c196.92.15,352.37-159,351.75-351.36-.63-197.89-162.84-355.4-360.66-349.66C195.59,55.08,46.71,213.08,48.08,402.83ZM653.51,102.59c-4.9,4.64-4.79,4.53-1.19,8.07,11.65,11.43,24,22.26,34.68,34.54q104,119.51,96,278a361.29,361.29,0,0,1-21.09,104.46Q716.8,653.15,604.22,725a372.85,372.85,0,0,1-146,54.44c-9.69,1.46-19.43,2.57-29.28,3.85-1.16,4.4.39,6.35,5,5.61,18.23-3,36.73-4.8,54.65-9.07,95.28-22.75,171.88-74,229-153.53,41.47-57.7,64.82-122.39,71-193.29a383.8,383.8,0,0,0-8.12-119.15Q756.78,210.1,684,132.4C674.31,122.1,663.79,112.62,653.51,102.59ZM39.87,265c-4.18-2.83-6-1.47-7.5,2.63A393.43,393.43,0,0,0,9.9,421.81c.23,4.4.69,8.78,1,13.1,6,0,6.09,0,5.73-5.08C13,377.34,19,326.09,36,276.22Z" />
+                  <path class="cls-1"
+                    d="M48.08,402.83C46.71,213.08,195.59,55.08,388.56,49.48c197.82-5.74,360,151.77,360.66,349.66.62,192.32-154.83,351.51-351.75,351.36C211.85,750.36,50.49,601.28,48.08,402.83Zm359.16,342.1c193.67-5.79,340.82-165.62,336.28-353.22C739,204.88,587,56.08,401.35,55,203.23,53.74,52,215.47,53.65,402.85,55.33,590.77,208.83,748.42,407.24,744.93Z" />
+                  <path class="cls-1"
+                    d="M653.51,102.59c10.28,10,20.8,19.51,30.45,29.81Q756.73,210,780.42,313.81A383.8,383.8,0,0,1,788.54,433c-6.14,70.9-29.49,135.59-71,193.29-57.13,79.51-133.73,130.78-229,153.53-17.92,4.27-36.42,6.12-54.65,9.07-4.58.74-6.13-1.21-5-5.61,9.85-1.28,19.59-2.39,29.28-3.85a372.85,372.85,0,0,0,146-54.44q112.57-71.57,157.7-197.34A361.29,361.29,0,0,0,783,423.15q7.93-158.28-96-277.95c-10.68-12.28-23-23.11-34.68-34.54C648.72,107.12,648.61,107.23,653.51,102.59Z" />
+                  <path class="cls-1" d="M39.87,265,36,276.22C19,326.09,13,377.34,16.66,429.83c.36,5.08.31,5.09-5.73,5.08-.34-4.32-.8-8.7-1-13.1A393.43,393.43,0,0,1,32.37,267.59C33.83,263.49,35.69,262.13,39.87,265Z" />
+                  <path
+                    d="M407.24,744.93C208.83,748.42,55.33,590.77,53.65,402.85,52,215.47,203.23,53.74,401.35,55,587,56.08,739,204.88,743.52,391.71,748.06,579.31,600.91,739.14,407.24,744.93Zm-10.68-15.64c180.18.89,327.07-145.52,328-326.93.92-180.53-145.22-327.43-326.9-328.59C216.68,72.62,69.32,219.23,69,402,68.71,582.55,215,729,396.56,729.29Z" />
+                  <path class="cls-1"
+                    d="M396.56,729.29C215,729,68.71,582.55,69,402,69.32,219.23,216.68,72.62,397.65,73.77c181.68,1.16,327.82,148.06,326.9,328.59C723.63,583.77,576.74,730.18,396.56,729.29ZM661.37,391.53c1.24,72-21.09,135.68-69.7,188.9-51.19,56-115.08,86.1-191.53,88.07a33.44,33.44,0,0,0-7.89,1.17c-7.68,2.11-12.65,8.26-12,14.55.59,6.12,6.33,11.1,14,12.14a9.6,9.6,0,0,0,2,.12c13.76-1,27.66-1,41.25-3.09,74.8-11.41,136.87-46.21,185-104.47C672,529,693.91,459.54,690,382a117.13,117.13,0,0,0-4.62-25.3c-1.72-6.14-7-8-13.15-6.62-6.62,1.46-10.3,5.94-10.69,12.14C660.92,372,661.37,381.76,661.37,391.53ZM103.47,336c-.3,6.94,2.06,10.43,6.5,12.65,4.68,2.35,9.74,3,13.35-1.07A33.9,33.9,0,0,0,130.6,335C155.92,244,211.73,180.67,300.46,147a89.87,89.87,0,0,0,13-6.27c4.16-2.42,5.91-6.52,4.55-11.14a16.51,16.51,0,0,0-10.39-11.31c-5.85-2.26-10.59.53-15.69,2.51Q149.25,176.3,106.69,323.32C105.31,328.1,104.24,333,103.47,336Z" />
+                  <path
+                    d="M661.37,391.53c0-9.77-.45-19.57.17-29.3.39-6.2,4.07-10.68,10.69-12.14,6.19-1.37,11.43.48,13.15,6.62A117.13,117.13,0,0,1,690,382c3.91,77.53-18,147-67.52,206.91-48.13,58.26-110.2,93.06-185,104.47-13.59,2.07-27.49,2.12-41.25,3.09a9.6,9.6,0,0,1-2-.12c-7.69-1-13.43-6-14-12.14-.61-6.29,4.36-12.44,12-14.55a33.44,33.44,0,0,1,7.89-1.17c76.45-2,140.34-32,191.53-88.07C640.28,527.21,662.61,463.54,661.37,391.53Zm25.47,7.1c-1.59-13.22-2.86-25.26-4.6-37.24-.53-3.6-2.25-7.12-7-7s-8.15,2.53-8.8,7.18a159.11,159.11,0,0,0-1.25,18.27c-.39,16.3.73,32.74-1.06,48.87C649.17,563.25,543,664.28,407.88,673.1c-5.1.34-10.31.27-15.24,1.38-4.37,1-7.85,4-7.89,9.11,0,3.81,4.35,7.4,9.63,8a75.39,75.39,0,0,0,10.94.33c37.19-1.57,73.24-9,106.82-25C625.16,612.84,681,521.56,686.84,398.63Z" />
+                  <path
+                    d="M103.47,336c.77-3,1.84-7.92,3.22-12.7q42.54-147.06,185.24-202.51c5.1-2,9.84-4.77,15.69-2.51A16.51,16.51,0,0,1,318,129.61c1.36,4.62-.39,8.72-4.55,11.14a89.87,89.87,0,0,1-13,6.27C211.73,180.67,155.92,244,130.6,335a33.9,33.9,0,0,1-7.28,12.64c-3.61,4.1-8.67,3.42-13.35,1.07C105.53,346.45,103.17,343,103.47,336Zm13.81,9.56c.92-.58,3.52-1.34,4.51-3a55.65,55.65,0,0,0,5.66-12.6q37.74-131.55,163.87-184.49c6-2.5,11.94-5,17.91-7.57,3.39-1.43,4.89-3.95,4.1-7.57a10.26,10.26,0,0,0-13.12-7.39c-68.09,23.79-121,66.41-158.11,128.28a279.74,279.74,0,0,0-33.72,85.63C107.32,341.76,110.48,345.41,117.28,345.58Z" />
+                  <path class="cls-1"
+                    d="M686.84,398.63C681,521.56,625.16,612.84,512.14,666.84c-33.58,16-69.63,23.47-106.82,25a75.39,75.39,0,0,1-10.94-.33c-5.28-.56-9.66-4.15-9.63-8,0-5.1,3.52-8.12,7.89-9.11,4.93-1.11,10.14-1,15.24-1.38C543,664.28,649.17,563.25,664.08,428.69c1.79-16.13.67-32.57,1.06-48.87a159.11,159.11,0,0,1,1.25-18.27c.65-4.65,4-7.08,8.8-7.18s6.52,3.42,7,7C684,373.37,685.25,385.41,686.84,398.63Z" />
+                  <path class="cls-1"
+                    d="M117.28,345.58c-6.8-.17-10-3.82-8.9-8.75A279.74,279.74,0,0,1,142.1,251.2c37.15-61.87,90-104.49,158.11-128.28a10.26,10.26,0,0,1,13.12,7.39c.79,3.62-.71,6.14-4.1,7.57-6,2.53-11.93,5.07-17.91,7.57Q165,198.31,127.45,329.94a55.65,55.65,0,0,1-5.66,12.6C120.8,344.24,118.2,345,117.28,345.58Z" />
+                </g>
+              </g>
+            </svg></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <iframe id="videoEmbed" src="https://player.vimeo.com/video/384617970?color=e21d28&title=0&byline=0&portrait=0" width="100%" height="45%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="an col-lg-12">
+          <a href="https://andreasilvano.github.io/urlografo/web/analisi_urlografo.pdf">
+            <p id="section-title"><b>SCARICA L'ANALISI</b></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8">
+          <p id="description">
+            Urlografo è una macchina comunicativa che intende creare un’interazione tra due individui basata sull’ascolto.
+            Gli utenti sono invitati a partecipare in coppia, ognuno nella postazione dedicata, ricoprendo il ruolo di urlatore e ascoltatore.
+            L’urlatore è chiamato ad esprimere la propria interiorità attraverso un urlo, captato e tradotto graficamente solo a partire dall’attivazione della macchina da parte dell’ascoltatore.
+            La rappresentazione grafica dell’urlo viene infine stampata su uno scontrino, sul quale l’ascoltatore è invitato a scrivere la propria interpretazione e condividerla con l’urlatore.
+            L’azione compiuta dagli utenti sottolinea l’importanza e la necessità di un rapporto in cui l’altro è disposto ad ascoltare e comprendere attraverso la propria umanità il suo interlocutore.
+            Urlografo, dunque, non si limita ad essere una macchina di analisi sonora e traduzione grafica, ma diventa il tramite di una relazione umana che può poi proseguire anche senza di essa.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8">
+          <p id="galleria">
+            GALLERY
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="im col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/4.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="imm col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/5.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="imm col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/6.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="im col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/1.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="imm col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/2.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="imm col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/7.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="im col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/8.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="imm col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/9.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="imm col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/10.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="im col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/11.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="imm col-lg-3">
+          <div class="thumbnail"> <img src="./assets/gallery/12.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="imm col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/13.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="im col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/14.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="imm col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/15.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+        <div class="imm col-lg-3">
+          <div class="thumbnail">
+            <img src="./assets/gallery/16.jpg" alt="Lights" style="width:100%">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="cre col-lg-3">
+          <p id="uni">
+            <a id="link" href="http://www.design.polimi.it">Scuola del Design</a><br>
+            <a id="link" href="https://www.polimi.it">Politecnico di Milano</a>
+            <br><br>
+            PROFESSORI<br>
+            Matteo Ciastellardi<br>
+            Marco Calzati
+          </p>
+        </div>
+
+        <div id="uni" class="cre col-lg-3">
+          <a id="link" href="https://www.instagram.com/e.butt.l/" target="_blank">Elena Buttolo<br>
+            <a id="link" href="https://www.instagram.com/_finkyfunky/" target="_blank">Francesca Fincato<br>
+              <a id="link" href="https://www.instagram.com/marcobort/" target="_blank">Marco Gabriele<br>
+                <a id="link" href="https://www.instagram.com/alessandro_parca/" target="_blank">Alessandro Parca<br>
+                  <a id="link" href="https://www.instagram.com/1zzop/" target="_blank">Federico Pozzi<br>
+                    <a id="link" href="https://www.instagram.com/_andreasilvano/" target="_blank">Andrea Silvano<br><br>
+        </div>
+
+        <div id="fritzbus" class="cre col-lg-3">
+          <img src="./assets/fritzbus.png" style="width:200%">
+        </div>
+      </div>
+
+
+    </div>
+  </header>
+  <script>
+    var sounds = [
+      "/assets/screams/1.wav",
+      "/assets/screams/2.wav",
+      "/assets/screams/3.wav",
+      "/assets/screams/4.wav",
+      "/assets/screams/5.wav",
+      "/assets/screams/6.wav",
+      "/assets/screams/7.wav",
+      "/assets/screams/8.wav",
+      "/assets/screams/9.wav",
+      "/assets/screams/10.wav",
+      "/assets/screams/11.wav",
+      "/assets/screams/12.wav",
+      "/assets/screams/13.wav",
+      "/assets/screams/14.wav",
+      "/assets/screams/15.wav",
+      "/assets/screams/16.wav",
+      "/assets/screams/17.wav",
+      "/assets/screams/18.wav",
+      "/assets/screams/19.wav",
+      "/assets/screams/20.wav",
+      "/assets/screams/21.wav",
+      "/assets/screams/22.wav",
+      "/assets/screams/23.wav",
+      "/assets/screams/24.wav",
+      "/assets/screams/25.wav",
+      "/assets/screams/26.wav",
+      "/assets/screams/27.wav",
+      "/assets/screams/28.wav",
+      "/assets/screams/29.wav",
+      "/assets/screams/30.wav",
+      "/assets/screams/31.wav",
+      "/assets/screams/32.wav",
+      "/assets/screams/33.wav",
+      "/assets/screams/34.wav",
+      "/assets/screams/35.wav",
+      "/assets/screams/36.wav",
+      "/assets/screams/37.wav",
+      "/assets/screams/38.wav",
+      "/assets/screams/39.wav",
+      "/assets/screams/40.wav",
+      "/assets/screams/41.wav",
+      "/assets/screams/42.wav",
+
+    ];
+
+    var sound;
+
+    //function used to create a random number
+    function generateRandomNumber(max) {
+      return Math.floor(Math.random() * max);
+    }
+
+    function playSound() {
+      //create a random number and assign to x
+      var x = generateRandomNumber(sounds.length - 1);
+      var soundSrc = sounds[x];
+      //create a new instance of the audio object
+      if (sound) {
+        sound.pause();
+      } else {
+        sound = new Audio();
+      }
+      sound.src = soundSrc;
+      //play the sound
+      sound.play();
+    }
+
+    document.getElementById('soundbutton').addEventListener('click', playSound);
+  </script>
+  <main>
+  </main>
+  <footer>
+  </footer>
+
+</body>

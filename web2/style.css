@@ -1,0 +1,325 @@
+@font-face {
+  font-family: "eurostile";
+  src: url(fonts/eurostile.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "eurostile-bold";
+  src: url(fonts/eurostile-bold.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "eurostile-bold-extended";
+  src: url(fonts/eurostile-bold-extended.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* Desktop */
+#logo {
+  margin-top: 10vh;
+  margin-left: 10vh;
+  width: 80%;
+}
+
+#subTitle {
+  margin: 0;
+  font-size: 3.4vh;
+  line-height: 3.3vh;
+  font-family: eurostile-bold;
+  margin-top: 5vh;
+  margin-left: 10vh;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 4vh;
+}
+
+#button {
+  width: 10%;
+  margin-top: 2vh;
+}
+
+#rivivi {
+  font-size: 2.5vh;
+  font-family: eurostile-bold;
+  margin-bottom: 0;
+}
+
+#videoEmbed {
+  margin-top: 7vh;
+  height: 57vh;
+}
+
+#section-title {
+  margin-top: 5vh;
+  margin-left: 10vh;
+  font-size: 4vh;
+  font-family: eurostile;
+  color: black;
+  text-decoration: underline;
+}
+
+#description {
+  margin-left: 10vh;
+  font-size: 2.5vh;
+  line-height: 2.8vh;
+  font-family: eurostile-bold;
+}
+
+#galleria {
+  margin: 0;
+  font-size: 3.4vh;
+  line-height: 3.3vh;
+  font-family: eurostile-bold;
+  margin-top: 5vh;
+  margin-left: 10vh;
+}
+
+.gll {
+  margin-top: 3vh;
+}
+
+.im {
+  margin-top: 5vh;
+  margin-left: 10vh;
+}
+
+.imm {
+  margin-top: 5vh;
+}
+
+.cre {
+  margin-top: 10vh;
+  margin-left: 10vh;
+}
+
+.an {
+  margin-top: 5vh;
+}
+
+#uni {
+  font-family: eurostile-bold;
+  line-height: 3vh;
+  font-size: 2.5vh;
+  color: black;
+}
+
+#link {
+  color: black;
+  text-decoration: underline
+}
+
+/* iphone */
+@media only screen and (max-width: 380px) {
+  #logo {
+    margin-top: 10vh;
+    margin-left: 0vh;
+    width: 90%;
+  }
+
+  #subTitle {
+    margin: 0;
+    font-size: 2.4vh;
+    line-height: 2.3vh;
+    font-family: eurostile-bold;
+    margin-top: 5vh;
+    margin-left: 0vh;
+  }
+
+  .btn {
+    text-align: center;
+    margin-top: 4vh;
+  }
+
+  #button {
+    width: 20%;
+    margin-top: 2vh;
+  }
+
+  #rivivi {
+    font-size: 2.5vh;
+    font-family: eurostile-bold;
+    margin-bottom: 0;
+  }
+
+  #videoEmbed {
+    margin-top: -5vh;
+    height: 22vh;
+  }
+
+  #section-title {
+    margin-top: -10vh;
+    margin-left: 0vh;
+    font-size: 3vh;
+    font-family: eurostile;
+    color: black;
+    text-decoration: underline;
+  }
+
+  #description {
+    margin-left: 0vh;
+    font-size: 2vh;
+    line-height: 2vh;
+    font-family: eurostile-bold;
+  }
+
+  #galleria {
+    margin: 0;
+    font-size: 3.4vh;
+    line-height: 3.3vh;
+    font-family: eurostile-bold;
+    margin-top: 5vh;
+    margin-left: 2vh;
+  }
+
+  .gll {
+    margin-top: 3vh;
+  }
+
+  .im {
+    margin-top: 2vh;
+    margin-left: 0vh;
+  }
+
+  .imm {
+    margin-top: 2vh;
+  }
+
+  .cre {
+    margin-top: 5vh;
+    margin-left: 0vh;
+  }
+
+  .an {
+    margin-top: 5vh;
+  }
+
+  #uni {
+    font-family: eurostile-bold;
+    line-height: 2.6vh;
+    font-size: 2vh;
+    color: black;
+  }
+
+  #link {
+    color: black;
+    text-decoration: underline
+  }
+
+  #fritzbus {
+    width: 40%;
+    margin-bottom: 5vh;
+  }
+}
+
+/* ipad */
+@media only screen and (max-width: 768px) {
+  #logo {
+    margin-top: 10vh;
+    margin-left: 0vh;
+    width: 100%;
+  }
+
+  #subTitle {
+    margin: 0;
+    font-size: 2.4vh;
+    line-height: 2.3vh;
+    font-family: eurostile-bold;
+    margin-top: 5vh;
+    margin-left: 0vh;
+  }
+
+  .btn {
+    text-align: center;
+    margin-top: 4vh;
+  }
+
+  #button {
+    width: 20%;
+    margin-top: 2vh;
+  }
+
+  #rivivi {
+    font-size: 2.5vh;
+    font-family: eurostile-bold;
+    margin-bottom: 0;
+  }
+
+  #videoEmbed {
+    margin-top: 5vh;
+    height: 40vh;
+  }
+
+  #section-title {
+    margin-top: -2vh;
+    margin-left: 0vh;
+    font-size: 3vh;
+    font-family: eurostile;
+    color: black;
+    text-decoration: underline;
+  }
+
+  #description {
+    margin-left: 0vh;
+    font-size: 2.3vh;
+    line-height: 2.5vh;
+    font-family: eurostile-bold;
+  }
+
+  #galleria {
+    margin: 0;
+    font-size: 4vh;
+    line-height: 3.3vh;
+    font-family: eurostile-bold;
+    margin-top: 5vh;
+    margin-left: 0vh;
+  }
+
+  .gll {
+    margin-top: 3vh;
+  }
+
+  .im {
+    margin-top: 2vh;
+    margin-left: 0vh;
+  }
+
+  .imm {
+    margin-top: 2vh;
+  }
+
+  .cre {
+    margin-top: 5vh;
+    margin-left: 0vh;
+  }
+
+  .an {
+    margin-top: 5vh;
+  }
+
+  #uni {
+    font-family: eurostile-bold;
+    line-height: 2.6vh;
+    font-size: 2vh;
+    color: black;
+  }
+
+  #link {
+    color: black;
+    text-decoration: underline
+  }
+
+  #fritzbus {
+    width: 40%;
+    margin-bottom: 5vh;
+  }
+}
