@@ -1,9 +1,4 @@
-# URLOGRAFO<br><br> macchina comunicativa che favorisce la dinamica dell'ascolto.
+# URLOGRAFO<br><br>
 
-URLOGRAFO è una macchina comunicativa che intende creare un’interazione tra due individui basata sull’ascolto.<br>
-Gli utenti sono invitati a partecipare in coppia, ognuno nella postazione dedicata, ricoprendo il ruolo di urlatore e ascoltatore.
-L’urlatore è chiamato ad esprimere la propria interiorità attraverso un urlo, captato e tradotto graficamente solo a partire dall’attivazione della macchina da parte dell’ascoltatore.
-La rappresentazione grafica dell’urlo viene infine stampata su uno scontrino, sul quale l’ascoltatore è invitato a scrivere la propria interpretazione e condividerla con l’urlatore.
-L’azione compiuta dagli utenti sottolinea l’importanza e la necessità di un rapporto in cui l’altro è disposto ad ascoltare e comprendere attraverso la propria umanità il suo interlocutore.
-<br> URLOGRAFO, dunque, non si limita ad essere una macchina di analisi sonora e traduzione grafica, ma diventa il tramite di una relazione umana che può poi proseguire anche senza di essa. 
+is a "communicative machine" that creates interaction between individuals by connecting them through the act of listening. Users are invited to take action in pairs, each individual assigned to a specific role: listener or screamer. The person who screams tries to express his/her inner conscience through a scream, that is then picked up by the machine and converted into a graphic language. This process can only start when the listener activates the machine. The graphic depiction of what has been shouted is printed onto a receipt, the listener is invited to write down what he/she inferred from what he/she has just listened. The machine's goal is to highlight the necessity of a relationship between individuals in which the each person is prone to comprehend through his/her humanity the other person. Urlografo is not just any machine of acoustic analysis and audio wave plotting, but it becomes the mean by which human relationships originate and can continue to live on once the experience ends.
 
